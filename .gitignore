@@ -3,7 +3,8 @@
 Lecture Resources/
 Servers/
 
-
+## application properties
+application.properties
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,eclipse,gradle,maven
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,gradle,maven

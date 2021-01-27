@@ -1,4 +1,4 @@
-package com.blog.app.ws;
+package com.blog.app.ws.io.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
@@ -13,6 +13,5 @@ public interface UserRepository extends CrudRepository<UserEntity, Long> {
 	// custom method
 	// 함수명: findBy필드명 => 알아서 또 생성해줌ㅎ
 	UserEntity findByEmail(String email);
-	
 	
 }

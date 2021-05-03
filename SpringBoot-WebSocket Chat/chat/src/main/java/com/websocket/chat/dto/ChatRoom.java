@@ -31,6 +31,7 @@ public class ChatRoom {
 
         // if type of msg is ENTER, send welcoming message to all sessions in chatroom
         if (chatMessage.getType().equals(ChatMessage.MessageType.ENTER)) {
+            // add current incoming client to sessions
             sessions.add(session);
             chatMessage.setMessage(chatMessage.getSender() + "님이 입장했습니다.");
         }
